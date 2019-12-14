@@ -1,0 +1,98 @@
+body {
+    color: #777777;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; s;
+    background-image: url(../images/hotel-wallpaper.png);
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+}
+.inset {
+    width: 960px;
+    margin: 0 auto;
+}
+.logoname {
+    float: left;
+    background: #4aaaa5;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 10px;
+}
+.navigationlinks {
+    float: right;
+    margin: 0 auto;
+    font-size: large;
+    padding: 20px;    
+}
+a {
+    color: #777777;
+    text-decoration: none;
+}
+main {
+    width: 960px;
+    margin: auto;
+    clear: both;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    margin-top: 10px;
+}
+.mainbio {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px; 
+}
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.aboutme, .portfolio, .contact{
+    color: #4aaaa5;
+    padding: 5px;
+
+}
+input, textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form {
+    font-size: large;
+
+}
+.submitbtn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: auto;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: medium;
+}
+footer {
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #666666;
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
