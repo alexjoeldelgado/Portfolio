@@ -1,6 +1,6 @@
 body {
     color: #777777;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; s;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, s;
     background-image: url(../images/hotel-wallpaper.png);
     margin: 0;
 }
@@ -15,6 +15,9 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     border-bottom-style: solid;
+}
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .inset {
     width: 960px;
@@ -45,11 +48,13 @@ main {
     border-color: #dddddd;
     border-style: solid;
     margin-top: 10px;
+    margin-bottom: 80px;
 }
 .mainbio {
     width: 900px;
     margin: auto;
     margin-bottom: 30px; 
+    overflow: auto; 
 }
 img {
     float: left;
@@ -58,14 +63,12 @@ img {
     margin-bottom: 10px;
 
 }
-
 .aboutme, .portfolio, .contact{
     color: #4aaaa5;
-    padding: 5px;
 
 }
 input, textarea{
-    width: 100%;
+    width: 890px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -91,8 +94,44 @@ footer {
     text-align: center;
     color: #ffffff;
     font-size: small;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     clear: both;
+}
+.profbtnrow1 {
+    float: left;
+    
+    clear: both;
+}
+.profbtnrow2 {
+    float: left;
+    
+    clear: both;
+}
+.profbtnrow3 {
+    float: left;
+    
+    clear: both;
+}
+.portfoliobutton {
+    margin: 20px 40px 20px 0px;
+    width: 250px;
+    height: 250px;
+}
+.portbutton1, .portbutton2, .portbutton3, .portbutton4, .portbutton5 {
+    position: relative;
+    float: left;
+}
+.buttontext {
+    position: absolute;
+    top:200px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 230px;
+    padding: 10px;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    font-size: larger;
 }
