@@ -1,15 +1,10 @@
-body {
+html, body {
     color: #777777;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, s;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/hotel-wallpaper.png);
     margin: 0;
 }
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
 header {
-    position: relative;
     overflow: auto;
     margin: 0 auto;
     background-color: #ffffff;
@@ -48,7 +43,7 @@ main {
     border-color: #dddddd;
     border-style: solid;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 .mainbio {
     width: 900px;
@@ -61,11 +56,9 @@ img {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 .aboutme, .portfolio, .contact{
     color: #4aaaa5;
-
 }
 input, textarea{
     width: 890px;
@@ -74,7 +67,6 @@ input, textarea{
 }
 form {
     font-size: large;
-
 }
 .submitbtn {
     color: #ffffff;
@@ -87,6 +79,7 @@ form {
 footer {
     overflow: auto;
     margin: 0 auto;
+    padding-top: 20px;
     background-color: #666666;
     border-color: #4aaaa5;
     border-top-style: solid;
@@ -95,29 +88,17 @@ footer {
     color: #ffffff;
     font-size: small;
     position: sticky;
-    bottom: 0;
     width: 100%;
     clear: both;
 }
-.profbtnrow1 {
+.profbtnrow1, .profbtnrow2, .profbtnrow3 {
     float: left;
-    
-    clear: both;
-}
-.profbtnrow2 {
-    float: left;
-    
-    clear: both;
-}
-.profbtnrow3 {
-    float: left;
-    
     clear: both;
 }
 .portfoliobutton {
     margin: 20px 40px 20px 0px;
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 .portbutton1, .portbutton2, .portbutton3, .portbutton4, .portbutton5 {
     position: relative;
@@ -125,7 +106,7 @@ footer {
 }
 .buttontext {
     position: absolute;
-    top:200px;
+    bottom: 50px;
     color: #ffffff;
     background-color: #4aaaa5;
     width: 230px;
