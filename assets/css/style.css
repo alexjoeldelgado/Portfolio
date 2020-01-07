@@ -53,17 +53,14 @@ main {
 }
 img {
     float: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10 10 10 0;
 }
 .aboutme, .portfolio, .contact{
     color: #4aaaa5;
 }
 input, textarea{
     width: 890px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
 }
 form {
     font-size: large;
@@ -92,27 +89,125 @@ footer {
     clear: both;
 }
 .profbtnrow1, .profbtnrow2, .profbtnrow3 {
-    float: left;
+    float: none;
     clear: both;
+    width: 100%;
 }
 .portfoliobutton {
-    margin: 20px 40px 20px 0px;
     width: 250px;
     height: 200px;
+
 }
-.portbutton1, .portbutton2, .portbutton3, .portbutton4, .portbutton5 {
+.portbutton {
     position: relative;
+    width: 250px;
     float: left;
+    margin: 0 30px 30px 0;
 }
 .buttontext {
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 230px;
-    padding: 10px;
-    margin: 0;
+    width: 250px;
+    padding: 10px 0 10px 0;
     font-size: medium;
     text-align: center;
     font-size: larger;
+}
+@media screen and (max-width: 980px) {
+    .inset {
+        width: 90%;
+    }
+    main {
+        margin-left: 5%;
+        width: 60%;
+    }
+    .mainbio, form {
+        width: 90%;
+    }
+    img {
+        width: 150px;
+        height: 225px;
+    }
+    .portfoliobutton, .portbutton, .buttontext {
+        width: 250px;
+        height: auto;
+    }
+    .buttontext {
+        width: 250px;
+        float: inherit;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    .portbuttonleft {
+        float: left;
+        
+        margin: 0 0 20px 0;
+    }
+    .portbuttonright {
+        float: right;
+        
+        margin: 0 0 20px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .inset {
+        width: 90%;
+    }
+    main {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .mainbio, form{
+        width: 90%;
+    }
+    img {
+        width: 100px;
+        height: 150px;
+    }
+    .portfoliobutton, .portbutton, .buttontext {
+        width: 250px;
+        height: auto;
+    }
+    .buttontext {
+        width: 100%;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .inset {
+        width: 100%;
+    }
+    .logoname, .navigationlinks {
+        float: none;
+        text-align: center;
+    }
+    main {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .mainbio, form{
+        width: 90%;
+    }
+    img {
+        width: 50px;
+        height: 75px;
+    }
+    .portfoliobutton, .portbutton, .buttontext {
+        width: 250px;
+        height: auto;
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .buttontext {
+        width: 100%;
+    }
+    input, textarea {
+        width: 100%;
+    }
 }
