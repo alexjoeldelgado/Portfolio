@@ -3,6 +3,7 @@ Portfolio Homework #1
 Description
 This project is to display my HTML/CSS skills for my first homework assignment.
 
+
 Installation
 No installation necessary.
 

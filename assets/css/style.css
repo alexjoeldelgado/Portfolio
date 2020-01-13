@@ -127,6 +127,10 @@ footer {
     .mainbio, form {
         width: 90%;
     }
+    img {
+        height: 225px;
+        width: 150px;
+    }
     .portfoliobutton, .portbutton, .buttontext {
         width: 250px;
         height: auto;
@@ -136,7 +140,7 @@ footer {
         float: inherit;
     }
     input, textarea {
-        width: 100%;
+        width: 110%;
     }
     .portbuttonleft {
         float: left;
@@ -160,6 +164,10 @@ footer {
     .mainbio, form{
         width: 90%;
     }
+    img {
+        height: 300px;
+        width: 200px;
+    }
     .portfoliobutton, .portbutton, .buttontext {
         width: 250px;
         height: auto;
@@ -168,7 +176,7 @@ footer {
         width: 100%;
     }
     input, textarea {
-        width: 100%;
+        width: 110%;
     }
 }
 @media screen and (max-width: 640px) {
@@ -197,6 +205,10 @@ footer {
         width: 100%;
     }
     input, textarea {
-        width: 100%;
+        width: 110%;
+    }
+    img {
+        height: 300px;
+        width: 200px;
     }
 }
